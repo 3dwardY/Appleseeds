@@ -6,41 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Float Layout assignment</title>
     <style>
-        .box {
-            border: solid 2px black;
+        * {
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
         }
-        #header {
+        .container {
+
+            max-width: 1024px;
+            margin: 10px auto;
+        }
+        header {
+            border: solid 1px black;
             background-color: orange;
+            text-align: center;
+            margin-bottom: 5px;
 
         }
-        #side {
+        aside {
+            border: solid 1px black;
             background-color: green;
-
+            text-align: left;
+            float: left;
+            width: 30%;
+            height: 250px;
+            margin-bottom: 5px;
         }
-        #main {
+        main {
+            border: solid 1px black;
             background-color: purple;
+            text-align: right;
+            float: right;
+            width: calc(70% - 5px);
+            height: 250px;
+            margin-bottom: 5px;
 
         }
-        #footer {
+        footer {
+            clear: both;
+            border: solid 1px black;
             background-color: blue;
-
+            text-align: center;
+            margin-bottom: 5px;
         }
+
         
     </style>
 </head>
 <body>
-    <div class="box" id="header">
-        <p>header</p>
-        
+    <div class="container">
+        <header>
+            <p>header</p>
+        </header>
+        <main>
+            <p>main</p>
+        </main>
+        <aside>
+            <p>side</p>
+        </aside>
+        <footer>
+            <p>footer</p>
+        </footer>
     </div>
-    <div class="box" id="side">
-        <p>side</p>
-    </div>
-    <div class="box" id="main">
-        <p>main</p>
-    </div>
-    <div class="box" id="footer">
-        <p>footer</p>
-    </div>
+
+
 </body>
 </html>
