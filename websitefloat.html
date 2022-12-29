@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First webpage</title>
+    <script src="https://kit.fontawesome.com/6be9fb427f.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+        * {
+            font-family: 'Prosto One', cursive;
+        }
+        #profile-image {
+            padding: 10px;
+            margin: 20px;
+        }
+        #about {
+            border:1px solid #F9F4F2;
+            border-radius: 20px;
+            background: #55a98755;
+            padding: 10px;
+            margin: 20px;
+            box-shadow: 5px 5px 5px rgba(176, 164, 164, 0.392);
+            width: 800px;
+        }
+        h1 {
+            color: rgba(2, 55, 31, 0.808);
+            /* background-color: red; */
+            text-align: center;
+            font-size: 200%;
+            font-weight:bolder;
+            text-shadow: 5px 5px 5px rgb(97, 167, 131);
+            letter-spacing: 3px;
+            padding: 10px;
+            margin: 20px;
+            
+        }
+        body {
+            background-color: rgba(143, 188, 155, 0.422);
+        }
+        h3 {
+            color: green;
+            letter-spacing: 2px;
+            padding: 10px;
+            margin: 20px;
+        }
+        .card {
+        border:1px solid #F9F4F2;
+        border-radius: 20px;
+        background-color: #55a98755;
+        width: 250px;
+        box-shadow: 10px 10px 15px lightgray;
+        padding: 10px;
+        margin: 20px;
+        }
+        #music {
+            float: left;
+        }
+        #movie {
+            float: right;
+        }
+        footer {
+            clear: both;
+        }
+    
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Welcome</h1>
+    </div>
+
+    <div>
+        <h3> My name is Edward Yonatanov
+            <br><br>
+            and I am a programmer <i class="fa-solid fa-terminal"></i>
+        </h3>
+    </div>
+    <div id="profile-image">
+        <img src="/img/profile.JPG" width="300" alt="my photo">
+    </div>
+    <div id="about">
+        <p>
+            I am 36 years old, from Tiberias.
+            I enjoy listening to music, watching movies and series , playing Tennis and basketball.
+        </p>
+    </div>
+    <div class="card" id="music">
+        <img src="./img/direstraits.jpg" alt="direstraits photo" width="250">
+        <p>
+            One of my favorite bands.
+        </p>
+    </div>
+    <div class="card" id="movie"> 
+        <img src="./img/godfather.jpg" alt="godfather photo" width="250">
+        <p>
+            One of my favorite movies.
+        </p>
+    </div>
+    <div id="contact-options">
+        <footer>
+            <p>
+                <ul>
+                    <li>
+                       <i class="fa-brands fa-github-alt"></i><button><a href="https://github.com/3dwardY" target="_blank">My github</a></button>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-at"></i><a href="mailto: eddiey@outlook.com">email me</a>
+                  </li>
+                </ul>
+            </p>      
+        </footer>
+
+    </div>
+</body>
+</html>
