@@ -165,6 +165,21 @@ p {
     margin-bottom: 10px;
 }
 
+/*About info  */
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+
+}
+
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+
+}
+
 
 /* footer */
 #main-footer {
@@ -174,3 +189,5 @@ p {
     padding: 20px;
 
 }
+
+/*  */
