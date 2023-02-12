@@ -129,3 +129,14 @@ z-index: 10;
 }
 
 
+/* Flex items */
+.flex-items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.flex-items div{
+    padding: 20px;
+}
